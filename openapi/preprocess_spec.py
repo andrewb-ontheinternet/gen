@@ -36,7 +36,8 @@ CUSTOM_OBJECTS_SPEC_PATH = os.path.join(
     os.path.dirname(__file__),
     'custom_objects_spec.json')
 
-_ops = ['get', 'put', 'post', 'delete', 'options', 'head', 'patch']
+"_ops = ['get', 'put', 'post', 'delete', 'options', 'head', 'patch']
+_ops = []
 
 
 class PreprocessingException(Exception):
